@@ -2,5 +2,55 @@
     background-color: #222831;
     color: #ddd;
     box-shadow: 5px 5px 0px 0px #f05454;
-    width: 70%;
+    width: 95%;
+}
+
+.home-div {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 25% 5% 70%;
+}
+
+#home-img {
+    padding: 1em;
+    width: 100%;
+}
+
+.div-img-txt {
+    display: flex;
+    align-items: center;
+}
+
+.div-img-txt div {
+    background-color: #ddd;
+    width: 10%;
+    margin: 1em;
+    height: 8em;
+}
+
+.div-img-p {
+    display: flex;
+    align-items: center;
+}
+
+.img-p {
+    font-size: 1.8em;
+}
+
+.img-p i,
+.img-p button {
+    font-size: 0.6em;
+}
+
+.img-p button {
+    display: flex;
+    align-items: center;
+    background-color: #f05454;
+    padding: 0.5em;
+    color: #ddd;
+}
+
+.img-p button .arrow-button {
+    padding-left: 0.3em;
+    font-size: 1.3em;
 }
