@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
 
   menuOptions: any[];
+  title = "<Mario/>"
 
   constructor(private navbarService: NavbarService) { 
     this.menuOptions = navbarService.menu;

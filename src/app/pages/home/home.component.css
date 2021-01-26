@@ -31,10 +31,12 @@
 .div-img-p {
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .img-p {
     font-size: 1.8em;
+    animation: 1s slide-right;
 }
 
 .img-p i,
