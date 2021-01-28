@@ -25,6 +25,9 @@ body {
     color: #ddd;
     box-shadow: 5px 5px 0px 0px #f05454;
     width: 95%;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 @keyframes slide-right {

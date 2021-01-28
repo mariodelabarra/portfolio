@@ -1,1 +1,18 @@
-<p>skills works!</p>
+<section id="section">
+
+    <article class="skills-article">
+
+        <h1 class="skills-title"><a>S</a>KILLS</h1>
+
+        <div class="tech-grid">
+
+            <div class="tech-div" *ngFor="let tech of technologiesIcons">
+                <i [class]="tech.class"></i><span>{{ tech.name }}</span>
+            </div>
+
+
+        </div>
+
+    </article>
+
+</section>
