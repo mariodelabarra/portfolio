@@ -6,11 +6,11 @@ import { Injectable } from '@angular/core';
 export class NavbarService {
 
   menu: any[] = [
-        { title: 'Inicio', url: 'home'},
-        { title: 'Acerca', url: 'about'},
-        { title: 'Habilidades', url: 'skills'},
-        { title: 'Proyectos', url: 'projects'},
-        { title: 'Contacto', url: 'contact'},
+        { title: 'Home', url: 'home'},
+        { title: 'About', url: 'about'},
+        { title: 'Skills', url: 'skills'},
+        { title: 'Projects', url: 'projects'},
+        { title: 'Contact', url: 'contact'},
   ];
 
   constructor() { }
