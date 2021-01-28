@@ -86,7 +86,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ddd;
+    background-color: #222831;
     border: 2px solid #222831;
     -webkit-transition: .4s;
     transition: .4s;
@@ -97,29 +97,29 @@
     font-family: "Font Awesome 5 Free";
     content: "\f186";
     text-align: center;
-    color: #ddd;
+    color: #222831;
     height: 23px;
     width: 26px;
     left: 3px;
     bottom: 4px;
-    background-color: #222831;
+    background-color: #ddd;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked+.slider {
-    background-color: #222831;
+    background-color: #ddd;
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px #222831;
+    box-shadow: 0 0 1px #ddd;
 }
 
 input:checked+.slider:before {
     font-family: "Font Awesome 5 Free";
     content: "\f185";
-    background-color: #ddd;
-    color: #222831;
+    background-color: #222831;
+    color: #ddd;
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
