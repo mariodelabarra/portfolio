@@ -59,24 +59,22 @@
 
 @keyframes arrowrotate {
     0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(-45deg);
-    }
-    50% {
-        transform: rotate(-90deg);
-    }
-    75% {
-        transform: rotate(-125deg);
+        /* transform: rotate(0deg); */
+        transform: translate(0px,0);
     }
     100% {
-        transform: rotate(-180deg);
+        /* transform: rotate(-180deg); */
+        transform: translate(3px,0);
     }
 }
 
-.arrow-button:hover {
+#readmore-button:hover .arrow-button {
     /* transform: rotateZ(-180deg); */
     animation: arrowrotate 0.3s forwards;
     /* https://freefrontend.com/css-arrows/ */
+}
+
+#readmore-button a {
+    text-decoration: none;
+    color: #dedede;
 }
